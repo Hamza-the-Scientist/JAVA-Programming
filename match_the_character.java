@@ -16,8 +16,10 @@ class Match_the_charcter {
                 
             }
         }
+
+        System.out.print("Password = ");
         for(int i = 0; i < crack_password.length; i++){
-            System.out.print(crack_password[i]);
+            System.out.print(crack_password[i]);        //Print the password
         } 
     }
 }
