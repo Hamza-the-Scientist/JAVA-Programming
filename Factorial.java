@@ -1,3 +1,5 @@
+// Find the Factorial of any number
+
 import java.util.*;
 
 public class Factorial {
@@ -5,17 +7,28 @@ public class Factorial {
 
         Scanner sc = new Scanner(System.in);
 
-        double num;
-        double result = 1;
+        int num;
+        int result = 1;
 
         System.out.print("Enter any number : ");
-        num = sc.nextDouble();
+        try{
+            num = sc.nextInt();
 
-        for(int i = 1; i <= num; i++ ){
-            result = i * result;
+            if(num <=0){
+                System.out.println("Factorial is defined for zero and negative number.");
+                return;
+
+            }
+
+            for(int i = 1; i <= num; i++ ){
+                result = i * result;
+            }
+
+            System.out.println("The Factorial of the number is : " + result);
+
+        }catch(Exception e){
+            System.out.println("Invalid input! Pls.. Enter any postive number.");
         }
-
-        System.out.println("The Factorial of the number is : " + result);
 
         sc.close();
     }
