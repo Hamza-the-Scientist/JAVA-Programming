@@ -16,8 +16,6 @@ class Factorial{
 
             if(num <=0){
                 System.out.println("Factorial is defined for zero and negative number.");
-                return;
-
             }
 
             for(int i = 1; i <= num; i++ ){

@@ -32,5 +32,6 @@ class Discount_price {
             System.out.println("discount = " + discount);
             System.out.println("Total Price = " + final_amount);
 
+    sc.close();
     }
 }

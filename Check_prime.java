@@ -27,6 +27,6 @@ class check_prime {
             System.out.println("This is not Prime.");
         }
 
-        
+    sc.close();  
     }
 } 
