@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Check_prime {
+class check_prime {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         
