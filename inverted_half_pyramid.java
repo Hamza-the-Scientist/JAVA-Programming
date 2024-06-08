@@ -12,7 +12,7 @@ class inverted_half_pyramid {
         int line = sc.nextInt();
 
         for(int i=line; i>=1; i--){
-            for(int j=i; j>=1; j--){
+            for(int j=1; j<=i; j++){
                 System.out.print(character);
             }
             System.out.println();
